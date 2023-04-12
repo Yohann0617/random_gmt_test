@@ -43,27 +43,27 @@ python3 ./assess.py <file-name> <rounds> <bits-of-round> <pass-threshold>
 ## 3. 结果
 
 结果如下面例子:
-进行2轮测试，第一列为测试项，第二列为通过的测试轮数，第三列为是否大于阈值。
+进行20轮测试，第一列为测试项，第二列为通过的测试轮数，第三列为是否大于阈值。
 
 ```
-assess report(total 2 rounds):
+assess report(total 20 rounds): 
 <TEST>                                <PROPORTION>      <PASS>    
 ------------------------------------------------------------------
-monobit_frequency_test                2                 True
-frequency_test_within_a_block_test    2                 True
-poker_test                            2,2               True,True
-serial_test                           2,2               True,True
-runs_test                             2                 True
-runs_distribution_test                2                 True
-longest_run_of_ones_in_a_block_test   2                 True
-binary_derivative_test                2,2               True,True
-autocorrelation_test                  2,2,2,2           True,True,True,True
-binary_matrix_rank_test               2                 True
-cumulative_sums_test                  2                 True
-approximate_entropy_test              2,2               True,True
-linear_complexity_test                2                 True
-maurer_universal_statistical_test     2                 True
-discrete_fourier_transform_test       2                 True
+monobit_frequency_test                20                True      
+frequency_test_within_a_block_test    20                True      
+poker_test                            20,20             True,True 
+serial_test                           20,19             True,True 
+runs_test                             20                True      
+runs_distribution_test                19                True      
+longest_run_of_ones_in_a_block_test   20                True      
+binary_derivative_test                20,20             True,True 
+autocorrelation_test                  20,19,20,20       True,True,True,True
+binary_matrix_rank_test               20                True      
+cumulative_sums_test                  20                True      
+approximate_entropy_test              19,19             True,True 
+linear_complexity_test                19                True      
+maurer_universal_statistical_test     20                True      
+discrete_fourier_transform_test       20                True      
 ------------------------------------------------------------------
 ```
 
