@@ -75,3 +75,8 @@ discrete_fourier_transform_test       20                True
 ## 5. 检测工具（仅支持小数据量检测）
 
 `tool/RandomCheckTool.exe`
+
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Yohann0617/random_gmt_test.svg)](https://starchart.cc/Yohann0617/random_gmt_test)
