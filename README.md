@@ -76,6 +76,8 @@ discrete_fourier_transform_test       20                True
 
 `tool/RandomCheckTool.exe`
 
+|   Total Visitors:   |   ![Visitor Count](https://profile-counter.glitch.me/Yohann0617/count.svg)   |
+| ---- | ---- |
 
 ## Stargazers over time
 
